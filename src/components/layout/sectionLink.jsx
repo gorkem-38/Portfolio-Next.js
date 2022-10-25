@@ -1,4 +1,6 @@
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import DnsIcon from '@mui/icons-material/Dns';
 
 let styles = {
     sectionLink: "flex flex-col items-center h-screen w-full bg-[#6e07f3] text-white font-martel",
@@ -13,7 +15,8 @@ let styles = {
     divTech: "flex flex-col items-center pt-16 text-[#6e07f3] font-roboto",
     textBlack: "text-black",
     uppercase: "uppercase",
-    divTechParagraph: "flex flex-col justify-around text-center text-black h-56"
+    divFront: "flex flex-col items-center justify-around h-36 text-black pt-3",
+    divBack: "flex flex-col items-center justify-around h-36 text-black pt-3"
 }
 
 const SectionLink = () => {
@@ -21,12 +24,11 @@ const SectionLink = () => {
         <>
             <section className={styles.sectionLink}>
                 <div className={styles.divLink}>
-                    <a href="https://cv-gorkem.netlify.app/" target="_blank" className={styles.link}>cv</a>
-                    <a href="" className={styles.link}>Project</a>
-                </div>
-                <div className={styles.divLink}>
-                    <a href="https://github.com/gorkem-38" className={styles.link}>Github</a>
-                    <a href="https://www.linkedin.com/in/gorkem-tumer/" target="_blank" className={styles.link}>Linkedin</a>
+                    <p>Ayant grandi avec Internet, j'ai commencé à utiliser des ordinateurs
+                        à un âge où je n'avais que mon subconscient. Je jouais à des jeux en ligne, j'explorais le web sur IE, je démontais des ordinateurs pour voir de quoi est-ce qu'ils étaient faits pièce par pièce et à partir de là, j'ai toujours eu les doigts sur un ordinateur.
+                        Au commencement cette année 2022. A travers de formation en ligne et en présentiel.
+                        A ce jour, je suis à la recherche d'un stage afin de concrétiser mes projets et m'améliorer en collaborant avec des personnes talentueuses. J'ai une curiosité naturelle, je suis autonome et je m'efforce toujours constamment d'améliorer mes compétences et réaliser les projets les plus originaux car cela me vient d'une volonté à me distinguer.
+                    </p>
                 </div>
                 <div className={styles.divFrontEndIcon}>
                     <div className={styles.divIcon1}>
@@ -38,15 +40,17 @@ const SectionLink = () => {
                     </div>
                     <div className={styles.divTech}>
                         <h3>Language and Tools used:</h3>
-                        <div className={styles.divTechParagraph}>
-                            <p>Html / Css / Javascript</p>
+                        <div className={styles.divFront}>
+                            <VisibilityIcon />
+                            <p>Html - Css - Javascript</p>
+                            <p>Webpack - React.js - Next.js</p>
+                            <p>TailwindCss - Chart.js - <span className={styles.uppercase}>Json</span></p>
+                        </div>
+                        <div className={styles.divBack}>
+                            <DnsIcon />
                             <p>Php / Sql / Node.js</p>
-                            <p>Webpack / React.js / Next.js</p>
-                            <p>TailwindCss / Express.js / Symfony</p>
-                            <p>Jest / MySql / MongoDB</p>
-                            <p>Babel.js / Chart.js / <span className={styles.uppercase}>JSON</span></p>
-                            <p>PhpMyAdmin / <span className={styles.uppercase}>ftp</span> / <span className={styles.uppercase}>api</span> Rest</p>
-                            <p>Twig / Github / Scrum</p>
+                            <p>Express.js/ Mongo<span className={styles.uppercase}>db</span> - <span className={styles.uppercase}>Api</span> Rest</p>
+                            <p>Jest / Symfony / My<span className={styles.uppercase}>Sql</span></p>
                         </div>
                     </div>
                 </div>
