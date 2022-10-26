@@ -4,16 +4,16 @@ import DnsIcon from '@mui/icons-material/Dns';
 
 let styles = {
     sectionLink: "flex flex-col items-center h-screen w-full bg-[#6e07f3] text-white font-martel",
-    divLink:"flex flex-row justify-around w-64 pt-8",
+    divLink:"w-3/4 text-center pt-8",
     link: "text-lg uppercase hover:text-[#5be9b9]",
-    divFrontEndIcon: "mt-10 bg-white text-black w-96 h-screen border rounded-lg",
+    divFrontEndIcon: "mt-10 bg-white text-black w-5/6 h-screen border rounded-lg",
     divIcon1: "flex justify-center pt-10",
     icon: "bg-[#5be9b9] text-[#141c3a] rounded-full h-auto w-16 p-3",
     fontArimo: "font-arimo font-bold text-xl",
     divH2: "flex flex-col items-center pt-5 text-black",
     paragraph: "text-center font-roboto pt-5 px-10",
     divTech: "flex flex-col items-center pt-16 text-[#6e07f3] font-roboto",
-    textBlack: "text-black",
+    textTeal: "text-[#5be9b9]",
     uppercase: "uppercase",
     divFront: "flex flex-col items-center justify-around h-36 text-black pt-3",
     divBack: "flex flex-col items-center justify-around h-36 text-black pt-3"
@@ -35,19 +35,19 @@ const SectionLink = () => {
                         <DeveloperModeIcon className={styles.icon} />
                     </div>
                     <div className={styles.divH2}>
-                        <h2 className={styles.fontArimo}>Front-end Developper</h2>
-                        <p className={styles.paragraph}>I like to code things from scratch, and I like to bring my ideas to life in the browser.</p>
+                        <h2 className={styles.fontArimo}>Développement web</h2>
+                        <p className={styles.paragraph}>J'aime coder des choses à partir de rien, et j'aime donner vie à mes idées dans le navigateur.</p>
                     </div>
                     <div className={styles.divTech}>
-                        <h3>Language and Tools used:</h3>
+                        <h3>Langages et outils utilisés :</h3>
                         <div className={styles.divFront}>
-                            <VisibilityIcon />
+                            <VisibilityIcon className={styles.textTeal}/>
                             <p>Html - Css - Javascript</p>
                             <p>Webpack - React.js - Next.js</p>
                             <p>TailwindCss - Chart.js - <span className={styles.uppercase}>Json</span></p>
                         </div>
                         <div className={styles.divBack}>
-                            <DnsIcon />
+                            <DnsIcon className={styles.textTeal}/>
                             <p>Php / Sql / Node.js</p>
                             <p>Express.js/ Mongo<span className={styles.uppercase}>db</span> - <span className={styles.uppercase}>Api</span> Rest</p>
                             <p>Jest / Symfony / My<span className={styles.uppercase}>Sql</span></p>

@@ -15,10 +15,10 @@ const SectionName = () => {
     return (
         <>
             <div className={styles.divName}>
-                <h1 className={styles.h1}>Hello, I'm</h1>
+                <h1 className={styles.h1}>Hello, Je suis</h1>
                 <p className={styles.text}>Gorkem Tumer</p>
-                <p className={styles.text2}>Web Developper.</p>
-                <p className={styles.text3}>I code and design websites, make them beautiful, and i love it</p>
+                <p className={styles.text2}>Développeur Web.</p>
+                <p className={styles.text3}>Je code et conçois des sites web, je les embelli et j'aime ça.</p>
             </div>
             <section className={styles.sectionImg}>
                 <div className={styles.divImg}>
