@@ -1,5 +1,5 @@
 let styles = {
-    sectionWork: "h-screen"
+    sectionWork: "h-screen "
 }
 
 const SectionWork = () => {
