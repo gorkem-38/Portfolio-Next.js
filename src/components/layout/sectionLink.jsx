@@ -39,12 +39,12 @@ const SectionLink = () => {
                     <p className={styles.paragraph}>J&apos;aime coder des choses à partir de rien, et j&apos;aime donner vie à mes idées dans le navigateur.</p>
                 </div>
                 <div className={styles.divTech}>
-                    <h3>Langages et outils utilisés :</h3>
+                    <h3>Langages et technologies utilisés :</h3>
                     <div className={styles.divFront}>
                         <VisibilityIcon className={styles.textTeal}/>
                         <p>Html - Css - Javascript</p>
                         <p>Webpack - React.js - Next.js</p>
-                        <p>TailwindCss - Chart.js - <span className={styles.uppercase}>Json</span></p>
+                        <p>TailwindCss - <span className={styles.uppercase}>Json</span></p>
                     </div>
                     <div className={styles.divBack}>
                         <DnsIcon className={styles.textTeal}/>
