@@ -10,7 +10,7 @@ const SectionWork = () => {
             <section className={styles.sectionWork}>
                 <div className={styles.divParagraph}>
                     <h2 className={styles.fontMartel}>Mes projets récents</h2>
-                    <p>Voici quelques projets de design sur lesquels j'ai travaillé dans le passé.</p>
+                    <p>Voici quelques projets de design sur lesquels j&apos;ai travaillé dans le passé.</p>
                 </div>
             </section>
         </>

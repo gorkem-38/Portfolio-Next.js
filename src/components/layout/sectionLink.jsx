@@ -23,10 +23,10 @@ const SectionLink = () => {
         <>
             <section className={styles.sectionLink}>
                 <div className={styles.divText}>
-                    <p>Ayant grandi avec Internet, j'ai commencé à utiliser des ordinateurs
-                        à un âge où je n'avais que mon subconscient. Je jouais à des jeux en ligne, j'explorais le web sur IE, je démontais des ordinateurs pour voir de quoi est-ce qu'ils étaient faits pièce par pièce et à partir de là, j'ai toujours eu les doigts sur un ordinateur.
+                    <p>Ayant grandi avec Internet, j&apos;ai commencé à utiliser des ordinateurs
+                        à un âge où je n&apos;avais que mon subconscient. Je jouais à des jeux en ligne, j&apos;explorais le web sur IE, je démontais des ordinateurs pour voir de quoi est-ce qu&apos;ils étaient faits pièce par pièce et à partir de là, j&apos;ai toujours eu les doigts sur un ordinateur.
                         Au commencement cette année 2022. A travers de formation en ligne et en présentiel.
-                        A ce jour, je suis à la recherche d'un stage afin de concrétiser mes projets et m'améliorer en collaborant avec des personnes talentueuses. J'ai une curiosité naturelle, je suis autonome et je m'efforce toujours constamment d'améliorer mes compétences et réaliser les projets les plus originaux car cela me vient d'une volonté à me distinguer.
+                        A ce jour, je suis à la recherche d'un stage afin de concrétiser mes projets et m&apos;améliorer en collaborant avec des personnes talentueuses. J&apos;ai une curiosité naturelle, je suis autonome et je m&apos;éfforce toujours constamment d&apos;améliorer mes compétences et réaliser les projets les plus originaux car cela me vient d'une volonté à me distinguer.
                     </p>
                 </div>
             </section>
@@ -36,7 +36,7 @@ const SectionLink = () => {
                 </div>
                 <div className={styles.divH2}>
                     <h2 className={styles.fontArimo}>Développement web</h2>
-                    <p className={styles.paragraph}>J'aime coder des choses à partir de rien, et j'aime donner vie à mes idées dans le navigateur.</p>
+                    <p className={styles.paragraph}>J&apos;aime coder des choses à partir de rien, et j&apos;aime donner vie à mes idées dans le navigateur.</p>
                 </div>
                 <div className={styles.divTech}>
                     <h3>Langages et outils utilisés :</h3>
