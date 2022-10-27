@@ -14,12 +14,12 @@ let styles = {
 const SectionName = () => {
     return (
         <>
-            <div className={styles.divName}>
+            <section className={styles.divName}>
                 <h1 className={styles.h1}>Hello, Je suis</h1>
                 <p className={styles.text}>Gorkem Tumer</p>
                 <p className={styles.text2}>Développeur Web.</p>
                 <p className={styles.text3}>Je code et conçois des sites web, je les embelli et j'aime ça.</p>
-            </div>
+            </section>
             <section className={styles.sectionImg}>
                 <div className={styles.divImg}>
                     <Image src={illustration} />

@@ -5,7 +5,7 @@ import DnsIcon from '@mui/icons-material/Dns';
 let styles = {
     sectionLink: "h-screen w-full bg-[#6e07f3] text-white font-martel",
     divText:"flex justify-center text-justify text-sm px-10 pt-8",
-    sectionFrontEndIcon: "bg-white relative mb-20 text-black w-5/6 border rounded-lg",
+    sectionFrontEndIcon: "flex flex-col items-center bg-white text-black mx-6 border rounded-lg",
     divIcon1: "flex justify-center pt-10",
     icon: "bg-[#5be9b9] text-[#141c3a] rounded-full h-auto w-16 p-3",
     fontArimo: "font-arimo font-bold text-xl",

@@ -1,13 +1,16 @@
 let styles = {
-    sectionWork: "h-screen "
+    sectionWork: "h-screen",
+    divParagraph: "flex flex-col items-center pt-20",
+    fontMartel: "font-martel font-extrabold",
 }
 
 const SectionWork = () => {
     return (
         <>
             <section className={styles.sectionWork}>
-                <div>
-
+                <div className={styles.divParagraph}>
+                    <h2 className={styles.fontMartel}>Mes projets récents</h2>
+                    <p>Voici quelques projets de design sur lesquels j'ai travaillé dans le passé.</p>
                 </div>
             </section>
         </>
