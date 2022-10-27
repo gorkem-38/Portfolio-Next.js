@@ -25,8 +25,8 @@ const SectionLink = () => {
                 <div className={styles.divText}>
                     <p>Ayant grandi avec Internet, j&apos;ai commencé à utiliser des ordinateurs
                         à un âge où je n&apos;avais que mon subconscient. Je jouais à des jeux en ligne, j&apos;explorais le web sur IE, je démontais des ordinateurs pour voir de quoi est-ce qu&apos;ils étaient faits pièce par pièce et à partir de là, j&apos;ai toujours eu les doigts sur un ordinateur.
-                        Au commencement cette année 2022. A travers de formation en ligne et en présentiel.
-                        A ce jour, je suis à la recherche d'un stage afin de concrétiser mes projets et m&apos;améliorer en collaborant avec des personnes talentueuses. J&apos;ai une curiosité naturelle, je suis autonome et je m&apos;éfforce toujours constamment d&apos;améliorer mes compétences et réaliser les projets les plus originaux car cela me vient d'une volonté à me distinguer.
+                        Au commencement cette année 2022. A travers de formation en ligne et en présentiel, je m&apos;initie au développement web et a la programmation
+                        A ce jour, je suis à la recherche d&apos;un stage afin de concrétiser mes projets et m&apos;améliorer en collaborant avec des personnes talentueuses. J&apos;ai une curiosité naturelle, je suis autonome et je m&apos;éfforce toujours constamment d&apos;améliorer mes compétences et réaliser les projets les plus originaux car cela me vient d&apos;une volonté à me distinguer.
                     </p>
                 </div>
             </section>
