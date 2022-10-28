@@ -13,6 +13,9 @@ const SectionWork = () => {
                     <h2 className={styles.h2}>Mes projets récents</h2>
                     <p className={styles.divP}>Voici quelques projets sur lesquels j&apos;ai travaillé.</p>
                 </div>
+                <div>
+                    
+                </div>
             </section>
         </>
     )
