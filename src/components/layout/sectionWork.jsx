@@ -18,8 +18,8 @@ let styles = {
     divLandingPage: "pt-20",
     divCard: "h-96 shadow-2xl  mx-8 bg-[#6e07f3] text-white",
     cardHeader: "relative h-40 mx-6",
-    cardBody: "",
-    cardTypo1: "" 
+    cardBody: "text-center font",
+    cardTypo2: "font-martel" 
 }
 
 const SectionWork = () => {
@@ -35,9 +35,9 @@ const SectionWork = () => {
                         <CardHeader className={styles.cardHeader}>
                             <Image  src={landingpage} />
                         </CardHeader>
-                        <CardBody className="text-center">
-                            <Typography className="font-martel">Landing-Page</Typography>
-                            <Typography className="font-martel">1er projet, maquettage et réalisation du site avec TailwindCss. Hébergement du site a l&apos;aide de FileZilla</Typography>
+                        <CardBody className={styles.cardBody}>
+                            <Typography className={styles.cardTypo}>Landing-Page</Typography>
+                            <Typography className={styles.cardTypo2}>1er projet, maquettage et réalisation du site avec TailwindCss. Hébergement du site a l&apos;aide de FileZilla</Typography>
                         </CardBody>
                         <CardFooter className="">
                         </CardFooter>
