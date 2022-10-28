@@ -38,7 +38,7 @@ const SectionLink = () => {
                     <p className={styles.paragraph}>J&apos;aime coder des choses à partir de rien, et j&apos;aime donner vie à mes idées dans le navigateur.</p>
                 </div>
                 <div className={styles.divTech}>
-                    <h3>Langages et technologies utilisés :</h3>
+                    <h3 className='font-semibold'>Langages et technologies utilisés :</h3>
                     <div className={styles.divTools}>
                         <VisibilityIcon className={styles.textTeal}/>
                         <p>Html - Css - Javascript</p>
@@ -47,9 +47,9 @@ const SectionLink = () => {
                     </div>
                     <div className={styles.divTools}>
                         <DnsIcon className={styles.textTeal}/>
-                        <p>Php / Sql / Node.js</p>
-                        <p>Express.js/ Mongo<span className={styles.uppercase}>db</span> - <span className={styles.uppercase}>Api</span> Rest</p>
-                        <p>Jest / Symfony / My<span className={styles.uppercase}>Sql</span></p>
+                        <p>Php - Sql - Node.js</p>
+                        <p>Express.js - Mongo<span className={styles.uppercase}>db</span> - <span className={styles.uppercase}>Api</span> Rest</p>
+                        <p>Jest - Symfony - My<span className={styles.uppercase}>Sql</span></p>
                     </div>
                 </div>
             </section>

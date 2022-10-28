@@ -33,7 +33,7 @@ const SectionWork = () => {
                 <div className={styles.divLandingPage}>
                     <Card className={styles.divCard}>
                         <CardHeader className={styles.cardHeader}>
-                            <Image  src={landingpage} className="" />
+                            <Image  src={landingpage} />
                         </CardHeader>
                         <CardBody className="text-center">
                             <Typography className="font-martel">Landing-Page</Typography>
