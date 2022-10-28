@@ -14,8 +14,7 @@ let styles = {
     divTech: "flex flex-col items-center pt-16 pb-6 text-[#6e07f3] font-roboto",
     textTeal: "text-[#5be9b9]",
     uppercase: "uppercase",
-    divFront: "flex flex-col items-center justify-around h-36 text-black pt-3",
-    divBack: "flex flex-col items-center justify-around h-36 text-black pt-3"
+    divTools: "flex flex-col items-center justify-around h-36 text-black pt-3 font-martel",
 }
 
 const SectionLink = () => {
@@ -40,13 +39,13 @@ const SectionLink = () => {
                 </div>
                 <div className={styles.divTech}>
                     <h3>Langages et technologies utilisés :</h3>
-                    <div className={styles.divFront}>
+                    <div className={styles.divTools}>
                         <VisibilityIcon className={styles.textTeal}/>
                         <p>Html - Css - Javascript</p>
                         <p>Webpack - React.js - Next.js</p>
                         <p>TailwindCss - <span className={styles.uppercase}>Json</span></p>
                     </div>
-                    <div className={styles.divBack}>
+                    <div className={styles.divTools}>
                         <DnsIcon className={styles.textTeal}/>
                         <p>Php / Sql / Node.js</p>
                         <p>Express.js/ Mongo<span className={styles.uppercase}>db</span> - <span className={styles.uppercase}>Api</span> Rest</p>
