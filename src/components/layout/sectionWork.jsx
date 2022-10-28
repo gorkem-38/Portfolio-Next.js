@@ -37,7 +37,7 @@ const SectionWork = () => {
                         </CardHeader>
                         <CardBody className="text-center">
                             <Typography className="font-martel">Landing-Page</Typography>
-                            <Typography className="font-martel">1er projet, maquettage et réalisation du site avec TailwindCss. Hébergement du site a l'aide de FileZilla</Typography>
+                            <Typography className="font-martel">1er projet, maquettage et réalisation du site avec TailwindCss. Hébergement du site a l&apos;aide de FileZilla</Typography>
                         </CardBody>
                         <CardFooter className="">
                         </CardFooter>
