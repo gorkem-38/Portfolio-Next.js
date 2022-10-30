@@ -3,6 +3,7 @@ import SectionName from "./sectionName";
 import SectionLink from "./sectionLink";
 import SectionLandingPage from "./sectionLandingPage";
 import SectionAgenceWeb from "./sectionAgenceWeb";
+import SectionMazeBank from "./sectionMazeBank";
 
 const Layout = () => {
     return (
@@ -12,6 +13,7 @@ const Layout = () => {
             <SectionLink />
             <SectionLandingPage />
             <SectionAgenceWeb />
+            <SectionMazeBank />
         </>
     )
 }

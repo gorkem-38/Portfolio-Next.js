@@ -7,7 +7,7 @@ import {
   } from "@material-tailwind/react";
 
 import Image from 'next/image';
-import landingpage from '@src/assets/img/landingpage.png'
+import mazebank from '@src/assets/img/mazebank.png'
 // import metacode from '@src/assets/img/metacode.png'
 
 let styles = {
@@ -23,7 +23,7 @@ let styles = {
     cardTypo2: "font-martel text-sm" 
 }
 
-const SectionLandingPage = () => {
+const SectionMazeBank = () => {
     return (
         <>
             <section className={styles.sectionWork}>
@@ -34,7 +34,7 @@ const SectionLandingPage = () => {
                 <div className={styles.divLandingPage}>
                     <Card className={styles.divCard}>
                         <CardHeader className={styles.cardHeader}>
-                            <Image  src={landingpage} alt="" />
+                            <Image  src={mazebank} alt="" />
                         </CardHeader>
                         <CardBody className={styles.cardBody}>
                             <Typography className={styles.cardTypo}>Landing Page</Typography>
@@ -47,4 +47,4 @@ const SectionLandingPage = () => {
     )
 }
 
-export default SectionLandingPage;
+export default SectionMazeBank;

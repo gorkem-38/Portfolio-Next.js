@@ -26,11 +26,11 @@ const SectionAgenceWeb = () => {
             <section className={styles.sectionWork}>
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
-                        <Image  src={metacode} />
+                        <Image  src={metacode} alt="metacode" />
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
-                        <Typography className={styles.cardTypo}>Agence-web</Typography>
-                        <Typography className={styles.cardTypo2}>1er projet collectif dans un environnement Webpack, création d'une agence web. Hébergement du site sur Netlify.</Typography>
+                        <Typography className={styles.cardTypo}>Agence web</Typography>
+                        <Typography className={styles.cardTypo2}>1er projet collectif dans un environnement Webpack, création d&apos;une agence web. Hébergement du site sur Netlify.</Typography>
                     </CardBody>
                 </Card>
             </section>
