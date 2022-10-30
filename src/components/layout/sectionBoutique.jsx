@@ -7,7 +7,7 @@ import {
   } from "@material-tailwind/react";
 
 import Image from 'next/image';
-import mazebank from '@src/assets/img/mazebank.png'
+import boutique from '@src/assets/img/boutique.png'
 // import metacode from '@src/assets/img/metacode.png'
 
 let styles = {
@@ -29,11 +29,11 @@ const SectionBoutique = () => {
             <div className={styles.divBoutique}>
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
-                        <Image  src={mazebank} alt="" />
+                        <Image  src={boutique} alt="" />
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
                         <Typography className={styles.cardTypo}>Boutique</Typography>
-                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, réalisation d'une application bancaire. Hébergement du site sur Netlify</Typography>
+                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, création d'une boutique. Hébergement du site sur Netlify</Typography>
                     </CardBody>
                 </Card>
             </div>
