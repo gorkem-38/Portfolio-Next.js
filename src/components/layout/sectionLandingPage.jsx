@@ -11,7 +11,7 @@ import landingpage from '@src/assets/img/landingpage.png'
 // import metacode from '@src/assets/img/metacode.png'
 
 let styles = {
-    sectionWork: "h-screen",
+    sectionWork: "h-max pb-10",
     divParagraph: "flex flex-col items-center pt-20",
     h2: "font-martel text-xl underline font-black pb-4",
     divP: "text-center px-10 font-martel",
@@ -38,7 +38,7 @@ const SectionLandingPage = () => {
                         </CardHeader>
                         <CardBody className={styles.cardBody}>
                             <Typography className={styles.cardTypo}>Landing-Page</Typography>
-                            <Typography className={styles.cardTypo2}>1er projet, maquettage et réalisation du site avec TailwindCss. Hébergement du site a l&apos;aide de FileZilla</Typography>
+                            <Typography className={styles.cardTypo2}>1er projet individuel, maquettage et réalisation du site avec TailwindCss. Hébergement du site a l&apos;aide de FileZilla</Typography>
                         </CardBody>
                     </Card>
                 </div>
