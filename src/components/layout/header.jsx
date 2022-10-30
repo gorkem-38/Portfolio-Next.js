@@ -3,8 +3,8 @@ import WidgetsSharpIcon from '@mui/icons-material/WidgetsSharp';
 
 let styles = {
     div_widget: "flex justify-between p-4",
-    moon: "h-auto w-10",
-    sharp: "h-auto w-10 text-[#6e07f3]"
+    moon: "h-auto w-12",
+    sharp: "h-auto w-12 text-[#6e07f3]"
 };
 
 const Header = () => {
