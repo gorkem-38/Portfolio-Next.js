@@ -1,7 +1,8 @@
 import Header from "./header";
 import SectionName from "./sectionName";
 import SectionLink from "./sectionLink";
-import SectionWork from "./sectionWork";
+import SectionLandingPage from "./sectionLandingPage";
+import SectionAgenceWeb from "./sectionAgenceWeb";
 
 const Layout = () => {
     return (
@@ -9,7 +10,8 @@ const Layout = () => {
             <Header />
             <SectionName />
             <SectionLink />
-            <SectionWork />
+            <SectionLandingPage />
+            <SectionAgenceWeb />
         </>
     )
 }

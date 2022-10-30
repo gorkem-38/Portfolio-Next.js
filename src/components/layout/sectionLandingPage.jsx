@@ -23,7 +23,7 @@ let styles = {
     cardTypo2: "font-martel text-sm" 
 }
 
-const SectionWork = () => {
+const SectionLandingPage = () => {
     return (
         <>
             <section className={styles.sectionWork}>
@@ -47,4 +47,4 @@ const SectionWork = () => {
     )
 }
 
-export default SectionWork;
+export default SectionLandingPage;
