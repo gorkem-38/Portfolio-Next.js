@@ -7,6 +7,7 @@ import SectionMazeBank from "./sectionMazeBank";
 import SectionBoutique from "./sectionBoutique";
 import SectionLocation from "./sectionLocation";
 import SectionFilm from "./sectionFilm";
+import SectionGTA from "./sectionGTA3";
 
 const Layout = () => {
     return (
@@ -20,6 +21,7 @@ const Layout = () => {
             <SectionBoutique />
             <SectionLocation />
             <SectionFilm />
+            <SectionGTA />
         </>
     )
 }
