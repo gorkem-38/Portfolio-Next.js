@@ -5,6 +5,8 @@ import SectionLandingPage from "./sectionLandingPage";
 import SectionAgenceWeb from "./sectionAgenceWeb";
 import SectionMazeBank from "./sectionMazeBank";
 import SectionBoutique from "./sectionBoutique";
+import SectionLocation from "./sectionLocation";
+import SectionFilm from "./sectionFilm";
 
 const Layout = () => {
     return (
@@ -16,6 +18,8 @@ const Layout = () => {
             <SectionAgenceWeb />
             <SectionMazeBank />
             <SectionBoutique />
+            <SectionLocation />
+            <SectionFilm />
         </>
     )
 }
