@@ -14,10 +14,10 @@ import {
     cardHeader: "flex flex-col items-center justify-evenly text-white relative h-80 py-4 mx-7 bg-[#141c3a]",
     typoHeader: "text-xl font-arimo font-bold",
     typoHeader2: "text-base text-center font-arimo px-9 pb-6",
-    linkHeader: "",
+    linkHeader: "border border-[#5be9b9] p-3 rounded-full hover:bg-[#5be9b9] duration-300",
     cardBody: "text-center",
     typoBody: "text-xl pt-4 font-arimo font-bold",
-    divBody: "font-arimo"
+    divBody: "flex justify-center font-arimo"
 }
 
 const Footer = () => {
@@ -29,14 +29,22 @@ const Footer = () => {
                         <Typography className={styles.typoHeader}>Démarrer un projet</Typography>
                         <Typography className={styles.typoHeader2}>Tu souhaite travailler ensemble ? Nous devrions fixer un moment pour discuter.
                         </Typography>
-                        <div className="border border-[#5be9b9] p-3 rounded-full hover:bg-[#5be9b9] duration-300">
-                            <Link href="#" className="">C&apos;est partis !</Link>
-                        </div>
+                        <Link href="#">
+                            <a className={styles.linkHeader}>C&apos;est partis !</a>
+                        </Link>
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
-                        <Typography className={styles.typoBody}>Developpeur web front-end</Typography>
+                        <Typography className={styles.typoBody}>Développeur web front-end</Typography>
                         <div className={styles.divBody}>
-                            
+                            {/* <Link href="">
+
+                            </Link>
+                            <Link href="">
+
+                            </Link>
+                            <Link href="">
+
+                            </Link> */}
                         </div>
                     </CardBody>
                 </Card>
