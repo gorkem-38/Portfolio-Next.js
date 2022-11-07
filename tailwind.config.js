@@ -7,6 +7,7 @@ module.exports = withMT ({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
     color: {
@@ -23,5 +24,7 @@ module.exports = withMT ({
       },
     }
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
 });

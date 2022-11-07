@@ -8,6 +8,7 @@ import SectionBoutique from "./sectionBoutique";
 import SectionLocation from "./sectionLocation";
 import SectionFilm from "./sectionFilm";
 import SectionGTA from "./sectionGTA3";
+import Footer from "./footer";
 
 const Layout = () => {
     return (
@@ -22,6 +23,7 @@ const Layout = () => {
             <SectionLocation />
             <SectionFilm />
             <SectionGTA />
+            <Footer />
         </>
     )
 }
