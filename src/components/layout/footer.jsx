@@ -5,13 +5,14 @@ import {
     CardFooter,
     Typography,
   } from "@material-tailwind/react";
+
 import Link from 'next/link'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-  let styles = {
+let styles = {
     sectionWork: "pt-36",
-    divCard: "h-[35rem] bg-[#6e07f3] text-white rounded-none",
+    divCard: "h-[33rem] bg-[#6e07f3] text-white rounded-none",
     cardHeader: "flex flex-col items-center justify-evenly text-white relative h-80 py-4 mx-7 bg-[#141c3a]",
     typoHeader: "text-xl font-arimo font-bold",
     typoHeader2: "text-base text-center font-arimo px-9 pb-6",
@@ -19,13 +20,14 @@ import GitHubIcon from '@mui/icons-material/GitHub';
     cardBody: "text-center",
     typoBody: "text-xl pt-4 font-arimo font-bold",
     divBody: "flex justify-evenly items-end h-20 font-arimo px-10",
-    hoverIcon: "hover:text-[#5be9b9] transition duration-[400ms]"
+    hoverIcon: "hover:text-[#5be9b9] transition duration-[400ms]",
+    copyR: "font-tapestry pt-4"
 }
 
 const Footer = () => {
     return (
         <>
-            <section className={styles.sectionWork} >
+            <section className={styles.sectionWork}>
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                         <Typography className={styles.typoHeader}>Démarrer un projet</Typography>
@@ -45,7 +47,7 @@ const Footer = () => {
                                 <a><LinkedInIcon fontSize="large" className={styles.hoverIcon} /></a>
                             </Link>
                         </div>
-                        <div className="font-">
+                        <div className={styles.copyR}>
                             <p>Coder par moi © Tumer Gorkem</p>
                         </div>
                     </CardBody>

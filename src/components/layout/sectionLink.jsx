@@ -3,15 +3,16 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import DnsIcon from '@mui/icons-material/Dns';
 
 let styles = {
-    sectionLink: "h-screen w-full bg-[#6e07f3] text-white font-martel",
-    divText:"flex justify-center text-justify text-sm px-10 pt-8",
-    sectionFrontEndIcon: "flex flex-col items-center bg-white text-black mx-6 border rounded-lg",
+    sectionLink: "h-screen w-full bg-[#6e07f3] text-white font-martel md:h-[34rem] ",
+    divText:"flex justify-center text-justify text-sm px-10 pt-8 md:text-justify md:text-base md:px-24",
+    sectionFrontEndIcon: "flex flex-col items-center bg-white text-black mx-6 border rounded-lg drop-shadow-xl",
     divIcon1: "flex justify-center pt-10",
     icon: "bg-[#5be9b9] text-[#141c3a] rounded-full h-auto w-16 p-3",
     fontArimo: "font-arimo font-bold text-xl",
     divH2: "flex flex-col items-center pt-5 text-black",
     paragraph: "text-center font-roboto pt-5 px-10",
     divTech: "flex flex-col items-center pt-16 pb-6 text-[#6e07f3] font-roboto",
+    h3: 'font-semibold',
     textTeal: "text-[#5be9b9]",
     uppercase: "uppercase",
     divTools: "flex flex-col items-center justify-around h-36 text-black pt-3 font-martel",
@@ -38,7 +39,7 @@ const SectionLink = () => {
                     <p className={styles.paragraph}>J&apos;aime coder des choses à partir de rien, et j&apos;aime donner vie à mes idées dans le navigateur.</p>
                 </div>
                 <div className={styles.divTech}>
-                    <h3 className='font-semibold'>Langages et technologies utilisés :</h3>
+                    <h3 className={styles.h3}>Langages et technologies utilisés :</h3>
                     <div className={styles.divTools}>
                         <VisibilityIcon className={styles.textTeal}/>
                         <p>Html - Css - Javascript</p>

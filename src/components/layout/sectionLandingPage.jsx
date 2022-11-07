@@ -13,11 +13,11 @@ import landingpage from '@src/assets/img/landingpage.png'
 let styles = {
     sectionWork: "h-max pb-10",
     divParagraph: "flex flex-col items-center pt-20",
-    h2: "font-martel text-xl underline font-black pb-4",
-    divP: "text-center px-10 font-martel",
+    h2: "font-arimo text-xl underline font-black pb-4 md:text-2xl",
+    divP: "text-center px-10 font-arimo md:text-lg",
     divLandingPage: "pt-20",
-    divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white",
-    cardHeader: "relative h-40 mx-6",
+    divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-16",
+    cardHeader: "relative h-40 mx-6 md:mx-20",
     cardBody: "text-center",
     cardTypo: "text-xl pb-4",
     cardTypo2: "font-martel text-sm" 

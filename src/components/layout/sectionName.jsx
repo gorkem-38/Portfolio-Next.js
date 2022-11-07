@@ -8,7 +8,7 @@ let styles = {
     text2: "font-semibold text-xl",
     text3: "text-center font-roboto pt-8 px-10",
     sectionImg: 'flex justify-center pt-6',
-    divImg: 'h-auto w-72'
+    divImg: 'h-auto w-72 md:w-96'
 };
 
 const SectionName = () => {
