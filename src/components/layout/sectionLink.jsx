@@ -8,7 +8,7 @@ let styles = {
     sectionFrontEndIcon: "flex flex-col items-center bg-white text-black mx-6 border rounded-lg drop-shadow-xl",
     divIcon1: "flex justify-center pt-10",
     icon: "bg-[#5be9b9] text-[#141c3a] rounded-full h-auto w-16 p-3",
-    fontArimo: "font-arimo font-bold text-xl",
+    fontArimo: "font-arimo font-bold text-xl underline",
     divH2: "flex flex-col items-center pt-5 text-black",
     paragraph: "text-center font-roboto pt-5 px-10",
     divTech: "flex flex-col items-center pt-16 pb-6 text-[#6e07f3] font-roboto",

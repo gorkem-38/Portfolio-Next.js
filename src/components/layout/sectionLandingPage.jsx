@@ -19,7 +19,7 @@ let styles = {
     divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-16",
     cardHeader: "relative h-40 mx-6 md:mx-20",
     cardBody: "text-center",
-    cardTypo: "text-xl pb-4",
+    cardTypo: "text-xl font-arimo font-bold pb-4",
     cardTypo2: "font-martel text-sm" 
 }
 
