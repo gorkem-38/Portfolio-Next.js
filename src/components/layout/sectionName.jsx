@@ -3,7 +3,7 @@ import illustration from '@src/assets/img/illustration.png';
 import TypeAnimationn from '@src/components/functionJS/func.jsx'
 
 let styles = {
-    sectionLg: "lg:grid lg:grid-cols-2 lg:h-[27rem]",
+    sectionLg: "lg:grid lg:grid-cols-2 lg:h-[27rem] lg:mt-10",
     sectionName: "flex flex-col items-center pt-20 lg:border-2 lg:ring-offset-4 lg:ring-4 lg:ring-[#6e07f3] lg:rounded-xl lg: lg:p-0 lg:m-10 lg:justify-center",
     h1:"text-lg font-semibold",
     text: "font-bold capitalize text-4xl font-playball py-2 text-[#6e07f3]",
@@ -17,20 +17,20 @@ let styles = {
 const SectionName = () => {
     return (
         <>
-        <section className={styles.sectionLg}>
-            <div className={styles.sectionName}>
-                <h1 className={styles.h1}>Hello, Je suis</h1>
-                <p className={styles.text}>Gorkem Tumer</p>
-                <p className={styles.text2}>Développeur Web</p>
-                <span className={styles.frontBackFull}><TypeAnimationn /></span>
-                <p className={styles.text3}>Je code et conçois des sites web, je les embelli et j&apos;aime ça.</p>
-            </div>
-            <div className={styles.sectionImg}>
-                <div className={styles.divImg}>
-                    <Image src={illustration} />
+            <section className={styles.sectionLg}>
+                <div className={styles.sectionName}>
+                    <h1 className={styles.h1}>Hello, Je suis</h1>
+                    <p className={styles.text}>Gorkem Tumer</p>
+                    <p className={styles.text2}>Développeur Web</p>
+                    <span className={styles.frontBackFull}><TypeAnimationn /></span>
+                    <p className={styles.text3}>Je code et conçois des sites web, je les embelli et j&apos;aime ça.</p>
                 </div>
-            </div>
-        </section>
+                <div className={styles.sectionImg}>
+                    <div className={styles.divImg}>
+                        <Image src={illustration} />
+                    </div>
+                </div>
+            </section>
         </>
     )
 }

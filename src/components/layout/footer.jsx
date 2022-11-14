@@ -6,6 +6,7 @@ import {
     Typography,
   } from "@material-tailwind/react";
 
+import { Textarea } from "@material-tailwind/react";
 import Link from 'next/link'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -23,7 +24,6 @@ let styles = {
     divBody: "flex justify-evenly items-end h-14 font-arimo px-24 md:justify-center",
     hoverIcon: "hover:text-[#5be9b9] transition duration-[400ms]",
     frontBackFull: "h-6 text-[#5be9b9]",
-    pr5: "pr-5",
     copyR: "font-tapestry pt-4"
 }
 
@@ -36,16 +36,16 @@ const Footer = () => {
                         <Typography className={styles.typoHeader}>Démarrer un projet</Typography>
                         <Typography className={styles.typoHeader2}>Tu souhaite travailler ensemble ? Nous devrions fixer un moment pour discuter.
                         </Typography>
-                        <Link href="#">
-                            <a className={styles.linkHeader}>C&apos;est partis !</a>
-                        </Link>
+                        <div className="flex items-end w-64 gap-4 md:w-96">
+                            <Textarea label="Message" variant="message" />
+                        </div>
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
                         <Typography className={styles.typoBody}>Développeur web</Typography>
                         <span className={styles.frontBackFull}><TypeAnimationn /></span>
                         <div className={styles.divBody}>
                             <Link href="#">
-                                <a className={styles.pr5}><GitHubIcon fontSize="large" className={styles.hoverIcon} /></a>
+                                <a><GitHubIcon fontSize="large" className={styles.hoverIcon} /></a>
                             </Link>
                             <Link href="">
                                 <a><LinkedInIcon fontSize="large" className={styles.hoverIcon} /></a>
