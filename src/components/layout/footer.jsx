@@ -45,7 +45,7 @@ const Footer = () => {
                         <span className={styles.frontBackFull}><TypeAnimationn /></span>
                         <div className={styles.divBody}>
                             <Link href="#">
-                                <a><GitHubIcon fontSize="large" className={styles.hoverIcon} /></a>
+                                <a className="lg:pr-5"><GitHubIcon fontSize="large" className={styles.hoverIcon} /></a>
                             </Link>
                             <Link href="">
                                 <a><LinkedInIcon fontSize="large" className={styles.hoverIcon} /></a>

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import illustration from '@src/assets/img/illustration.png';
+import illustration from '@src/assets/img/preview.jpeg';
 import TypeAnimationn from '@src/components/functionJS/func.jsx'
 
 let styles = {

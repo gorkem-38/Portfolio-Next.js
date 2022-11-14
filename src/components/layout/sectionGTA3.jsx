@@ -11,11 +11,11 @@ import gta from '@src/assets/img/gtaIII.jpeg'
 // import metacode from '@src/assets/img/metacode.png'
 
 let styles = {
-    sectionWork: "h-max pb-1b0",
+    sectionWork: "h-max pb-10 lg:grid lg:grid-cols-2",
     divParagraph: "flex flex-col items-center pt-20",
     h2: "font-martel text-xl underline font-black pb-4",
     divP: "text-center px-10 font-martel",
-    divGTA: "pt-20",
+    divGTA: "pt-20 lg:grid lg:grid-cols-2",
     divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-20",
     cardHeader: "relative h-40 mx-6",
     cardBody: "text-center",
