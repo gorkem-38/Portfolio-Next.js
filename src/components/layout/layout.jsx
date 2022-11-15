@@ -5,7 +5,6 @@ import SectionLandingPage from "./sectionLandingPage";
 import SectionAgenceWeb from "./sectionAgenceWeb";
 import SectionMazeBank from "./sectionMazeBank";
 import SectionBoutique from "./sectionBoutique";
-import SectionLocation from "./sectionLocation";
 import SectionFilm from "./sectionFilm";
 import SectionGTA from "./sectionGTA3";
 import Footer from "./footer";
@@ -20,7 +19,6 @@ const Layout = () => {
             <SectionAgenceWeb />
             <SectionMazeBank />
             <SectionBoutique />
-            <SectionLocation />
             <SectionFilm />
             <SectionGTA />
             <Footer />

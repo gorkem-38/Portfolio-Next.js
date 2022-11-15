@@ -8,15 +8,11 @@ import {
 
 import Image from 'next/image';
 import futur2 from '@src/assets/img/futurProject2.jpg'
-// import metacode from '@src/assets/img/metacode.png'
+import film from '@src/assets/img/film.png'
 
 let styles = {
-    sectionWork: "h-max pb-10 lg:grid lg:grid-cols-2",
-    divParagraph: "flex flex-col items-center pt-20",
-    h2: "font-martel text-xl underline font-black pb-4",
-    divP: "text-center px-10 font-martel",
-    divFilm: "pt-20 lg:grid lg:grid-cols-2",
-    divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-20",
+    divFilm: "pt-20 lg:grid lg:grid-cols-2 lg:my-20 lg:hover:bg-[#5be9b9] lg:duration-300 lg:transition lg:ease-in-out lg:hover:-translate-y-3",
+    divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-20 lg:mb-12",
     cardHeader: "relative h-40 mx-6 md:mx-16",
     cardBody: "text-center",
     cardTypo: "text-xl pb-4 font-arimo font-bold",
@@ -27,6 +23,9 @@ const SectionFilm = () => {
     return (
         <>
             <div className={styles.divFilm}>
+                <div className="hidden lg:block lg:h-auto lg:w-64 lg:ml-56 lg:mt-7 lg:animate-bounce lg:opacity-80">
+                    <Image src={film} />
+                </div>
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                         <Image  src={futur2} alt="" />

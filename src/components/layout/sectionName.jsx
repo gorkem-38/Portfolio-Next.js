@@ -4,7 +4,7 @@ import TypeAnimationn from '@src/components/functionJS/func.jsx'
 
 let styles = {
     sectionLg: "lg:grid lg:grid-cols-2 lg:h-[27rem] lg:mt-10",
-    sectionName: "flex flex-col items-center pt-20 lg:border-2 lg:ring-offset-4 lg:ring-4 lg:ring-[#6e07f3] lg:rounded-xl lg: lg:p-0 lg:m-10 lg:justify-center",
+    sectionName: "flex flex-col items-center pt-20 lg:border-2 lg:ring-offset-4 lg:ring-4 lg:ring-[#6e07f3] lg:rounded-xl lg: lg:p-0 lg:m-10 lg:justify-center lg:hover:bg-[#5be9b9] lg:duration-300 lg:transition lg:ease-in-out lg:hover:-translate-y-3",
     h1:"text-lg font-semibold",
     text: "font-bold capitalize text-4xl font-playball py-2 text-[#6e07f3]",
     text2: "font-semibold text-xl",
