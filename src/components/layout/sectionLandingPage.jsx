@@ -16,7 +16,7 @@ let styles = {
     h2: "font-arimo text-xl underline font-black pb-4 md:text-2xl",
     gcols2: "hidden lg:grid lg:grid-cols-2 lg:mt-14 lg:hover:bg-[#5be9b9] lg:duration-300 lg:transition lg:ease-in-out lg:hover:-translate-y-3",
     divP: "text-center px-10 font-arimo md:text-lg",
-    wh: "hidden lg:block lg:ml-60 lg:mt-28 lg:h-auto lg:w-72 lg:rounded-full lg:animate-bounce lg:opacity-80",
+    wh: "hidden lg:block lg:ml-60 lg:mt-40 lg:h-auto lg:w-72 lg:rounded-full lg:animate-bounce lg:opacity-80",
     divLandingPage: "pt-20",
     divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-16 lg:mb-12",
     cardHeader: "relative h-40 mx-6 md:mx-20",
