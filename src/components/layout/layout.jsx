@@ -8,6 +8,7 @@ import SectionBoutique from "./sectionBoutique";
 import SectionFilm from "./sectionFilm";
 import SectionGTA from "./sectionGTA3";
 import Footer from "./footer";
+import 'animate.css';
 
 const Layout = () => {
     return (

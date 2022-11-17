@@ -33,7 +33,7 @@ const SectionMazeBank = () => {
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
                         <Typography className={styles.cardTypo}>Maze Bank</Typography>
-                        <Typography className={styles.cardTypo2}>Projet individuel environnement Webpack, réalisation d'une application bancaire. Hébergement du site sur Netlify</Typography>
+                        <Typography className={styles.cardTypo2}>Projet individuel environnement Webpack, réalisation d&apos;une application bancaire. Hébergement du site sur Netlify</Typography>
                     </CardBody>
                 </Card>
             </div>

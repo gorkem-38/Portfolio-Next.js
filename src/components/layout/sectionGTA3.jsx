@@ -29,7 +29,7 @@ const SectionGTA = () => {
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
                         <Typography className={styles.cardTypo}>Futur projet ...</Typography>
-                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, création d'une boutique. Hébergement du site sur Netlify</Typography>
+                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, création d&apos;une boutique. Hébergement du site sur Netlify</Typography>
                     </CardBody>
                 </Card>
                 <div className="hidden lg:block lg:h-auto lg:w-48 lg:ml-64 lg:mt-14 lg:animate-bounce lg:opacity-80">

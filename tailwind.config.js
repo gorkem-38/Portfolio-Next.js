@@ -14,6 +14,12 @@ module.exports = withMT ({
       'purple': '#6e07f3'
     },
     extend: {
+      animation: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+      },
       fontFamily: {
         'tapestry': ['Tapestry'],
         'playball': ['Playball'],
