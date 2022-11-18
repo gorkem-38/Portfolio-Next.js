@@ -13,7 +13,7 @@ import gtaa from '@src/assets/img/gta.jpeg'
 let styles = {
     divGTA: "pt-20 lg:grid lg:grid-cols-2 lg:hover:bg-[#5be9b9] lg:duration-300 lg:transition lg:ease-in-out lg:hover:-translate-y-3",
     divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-20 lg:mb-12",
-    cardHeader: "relative h-40 mx-6",
+    cardHeader: "relative h-[45%] mx-6",
     cardBody: "text-center",
     cardTypo: "text-xl pb-4 font-arimo font-bold",
     cardTypo2: "font-martel text-sm"
