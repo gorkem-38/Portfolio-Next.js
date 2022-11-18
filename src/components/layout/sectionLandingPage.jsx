@@ -35,7 +35,7 @@ const SectionLandingPage = () => {
                 </div>
                 <section className={styles.gcols2}>
                     <div className={styles.wh}>
-                        <Image src={landingIcon} className="rounded-full animate-wiggle" />
+                        <Image src={landingIcon} className="rounded-full animate-bounce" />
                     </div>
                     <div className={styles.divLandingPage}>
                         <Card className={styles.divCard}>
