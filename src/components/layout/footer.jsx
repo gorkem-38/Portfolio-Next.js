@@ -32,7 +32,11 @@ let styles = {
 const Footer = () => {
     return (
         <>
-            <section className={styles.sectionWork}>
+            <section 
+            className={styles.sectionWork}
+            data-aos-duration="700"
+            data-aos="fade-down-left"
+            data-aos-once="false">
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                         <Typography className={styles.typoHeader}>Démarrer un projet</Typography>

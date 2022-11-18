@@ -25,7 +25,7 @@ const SectionMazeBank = () => {
         <>
             <div 
             className={styles.divMazeBank}
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos="zoom-in-up"
             data-aos-once="false">
                 <Card className={styles.divCard}>

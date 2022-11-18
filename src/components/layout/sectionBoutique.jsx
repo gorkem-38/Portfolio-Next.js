@@ -25,7 +25,7 @@ const SectionBoutique = () => {
         <>
             <div 
             className={styles.divBoutique}
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos="zoom-in-up"
             data-aos-once="false">
                 <div className={styles.icon}>

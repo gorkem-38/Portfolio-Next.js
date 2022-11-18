@@ -24,7 +24,7 @@ const SectionFilm = () => {
         <>
             <div 
             className={styles.divFilm}
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos="zoom-in-up"
             data-aos-once="false">
                 <div className="hidden lg:block lg:h-auto lg:w-64 lg:ml-56 lg:mt-7 lg:animate-bounce lg:opacity-80">

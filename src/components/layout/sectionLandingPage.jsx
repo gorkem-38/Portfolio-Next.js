@@ -30,7 +30,7 @@ const SectionLandingPage = () => {
         <>
             <section 
             className={styles.sectionWork} 
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos="zoom-in-up"
             data-aos-once="false"
             >

@@ -23,7 +23,7 @@ const SectionLink = () => {
         <>
             <section 
             className={styles.sectionLink}
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             data-aos="zoom-in-up"
             data-aos-once="false">
                 <div className={styles.divText}>

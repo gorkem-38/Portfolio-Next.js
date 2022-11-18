@@ -5,17 +5,17 @@ import { useEffect } from "react";
 import AOS from "aos";
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    AOS.init({
-      easing: "ease-out-cubic",
-      once: true,
-      offset: 50,
-    });
-  }, []); 
+    useEffect(() => {
+      AOS.init({
+        easing: "ease-out-cubic",
+        once: true,
+        offset: 50,
+      });
+    }, []);
   return (
-    <ThemeProvider>
-      <Component {...pageProps} />
-    </ThemeProvider>
+      <ThemeProvider>
+        <Component {...pageProps} />
+      </ThemeProvider>
   );
 };
 
