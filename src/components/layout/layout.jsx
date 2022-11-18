@@ -10,12 +10,10 @@ import SectionFilm from "./sectionFilm";
 import SectionGTA from "./sectionGTA3";
 import Footer from "./footer";
 import 'animate.css';
-import { NavProgress } from "./navProgress";
 
 const Layout = () => {
     return (
         <>
-            <NavProgress />
             <Header />
             <SectionName />
             <SectionLink />
