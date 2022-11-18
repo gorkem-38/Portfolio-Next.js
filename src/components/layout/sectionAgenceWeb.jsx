@@ -23,7 +23,11 @@ let styles = {
 const SectionAgenceWeb = () => {
     return (
         <>
-            <section className={styles.sectionWork}>
+            <section 
+            className={styles.sectionWork}
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false">
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                         <Image src={metacode} alt="metacode" />

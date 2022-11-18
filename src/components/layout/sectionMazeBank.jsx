@@ -23,10 +23,11 @@ let styles = {
 const SectionMazeBank = () => {
     return (
         <>
-            <div className={styles.divMazeBank}>
-                <div className={styles.icon}>
-                    <Image src={dev} />
-                </div>
+            <div 
+            className={styles.divMazeBank}
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false">
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                         <Image  src={mazebank} alt="mazebank" />
@@ -36,6 +37,9 @@ const SectionMazeBank = () => {
                         <Typography className={styles.cardTypo2}>Projet individuel environnement Webpack, réalisation d&apos;une application bancaire. Hébergement du site sur Netlify</Typography>
                     </CardBody>
                 </Card>
+                <div className={styles.icon}>
+                    <Image src={dev} />
+                </div>
             </div>
         </>
     )

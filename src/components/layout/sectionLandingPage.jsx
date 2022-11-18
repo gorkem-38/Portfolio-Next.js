@@ -28,7 +28,12 @@ let styles = {
 const SectionLandingPage = () => {
     return (
         <>
-            <section className={styles.sectionWork}>
+            <section 
+            className={styles.sectionWork} 
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false"
+            >
                 <div className={styles.divParagraph}>
                     <h2 className={styles.h2}>Mes projets récents</h2>
                     <p className={styles.divP}>Voici quelques projets sur lesquels j&apos;ai travaillé.</p>

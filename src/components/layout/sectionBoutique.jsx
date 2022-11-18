@@ -23,19 +23,24 @@ let styles = {
 const SectionBoutique = () => {
     return (
         <>
-            <div className={styles.divBoutique}>
+            <div 
+            className={styles.divBoutique}
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false">
+                <div className={styles.icon}>
+                    <Image src={wp} className="rounded-full" />
+                </div>
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                         <Image  src={boutique} alt="" />
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
                         <Typography className={styles.cardTypo}>Boutique</Typography>
-                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, création d&apos;une boutique. Hébergement du site sur Netlify</Typography>
+                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, création d&apos;une boutique. Hébergement du site sur <span className="uppercase">ionos</span> (hébergeur web)
+                        </Typography>
                     </CardBody>
                 </Card>
-                <div className={styles.icon}>
-                    <Image src={wp} className="rounded-full" />
-                </div>
             </div>
         </>
     )

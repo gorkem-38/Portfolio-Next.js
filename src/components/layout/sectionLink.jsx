@@ -5,7 +5,7 @@ import DnsIcon from '@mui/icons-material/Dns';
 let styles = {
     sectionLink: "h-screen w-full bg-[#6e07f3] text-white font-martel md:h-[34rem]",
     divText:"flex justify-center text-justify text-sm px-10 pt-8 md:text-justify md:text-base md:px-24 lg:px-48",
-    sectionFrontEndIcon: "flex flex-col items-center bg-white text-black mx-9 mt-[-16rem] border rounded-lg drop-shadow-xl md:mt-[-12rem] lg:mx-20",
+    sectionFrontEndIcon: "flex flex-col items-center bg-white text-black mx-9 mt-[-16rem] border rounded-lg drop-shadow-xl md:mt-[-12rem] lg:mt-[-20rem] lg:mx-20",
     divIcon1: "flex justify-center pt-10",
     icon: "bg-[#5be9b9] text-[#141c3a] rounded-full h-auto w-16 p-3",
     fontArimo: "font-arimo font-bold text-xl underline",
@@ -21,7 +21,11 @@ let styles = {
 const SectionLink = () => {
     return (
         <>
-            <section className={styles.sectionLink}>
+            <section 
+            className={styles.sectionLink}
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false">
                 <div className={styles.divText}>
                     <p>Ayant grandi avec Internet, j&apos;ai commencé à utiliser des ordinateurs
                         à un âge où je n&apos;avais que mon subconscient. Je jouais à des jeux en ligne, j&apos;explorais le web sur IE, je démontais des ordinateurs pour voir de quoi est-ce qu&apos;ils étaient faits pièce par pièce et à partir de là, j&apos;ai toujours eu les doigts sur un ordinateur.

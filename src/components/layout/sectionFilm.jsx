@@ -22,19 +22,23 @@ let styles = {
 const SectionFilm = () => {
     return (
         <>
-            <div className={styles.divFilm}>
-                <div className="hidden lg:block lg:h-auto lg:w-64 lg:ml-56 lg:mt-7 lg:animate-bounce lg:opacity-80">
-                    <Image src={film} />
-                </div>
+            <div 
+            className={styles.divFilm}
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false">
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                         <Image  src={futur2} alt="futur" />
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
                         <Typography className={styles.cardTypo}>Futur projet ...</Typography>
-                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, création d&apos;une boutique. Hébergement du site sur Netlify</Typography>
+                        <Typography className={styles.cardTypo2}>...</Typography>
                     </CardBody>
                 </Card>
+                <div className="hidden lg:block lg:h-auto lg:w-64 lg:ml-56 lg:mt-7 lg:animate-bounce lg:opacity-80">
+                    <Image src={film} />
+                </div>
             </div>
         </>
     )

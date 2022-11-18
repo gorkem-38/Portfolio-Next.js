@@ -8,6 +8,7 @@ import {
 
 import Image from 'next/image';
 import cvS from '@src/assets/img/cvScreen.png'
+import cvIcon from "@src/assets/img/cvIcon.png"
 
 let styles = {
     divFilm: "pt-20 lg:grid lg:grid-cols-2 lg:my-20 lg:hover:bg-[#5be9b9] lg:duration-300 lg:transition lg:ease-in-out lg:hover:-translate-y-3",
@@ -21,17 +22,21 @@ let styles = {
 const SectionFilm = () => {
     return (
         <>
-            <div className={styles.divFilm}>
+            <div 
+            className={styles.divFilm}
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false">
                 <div className="hidden lg:block lg:h-auto lg:w-64 lg:ml-56 lg:mt-7 lg:animate-bounce lg:opacity-80">
-                        {/* <Image  src={futur2} alt="" /> */}
+                        <Image  src={cvIcon} alt="cvIcon" />
                 </div>
                 <Card className={styles.divCard}>
                     <CardHeader className={styles.cardHeader}>
                     <Image src={cvS} />
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
-                        <Typography className={styles.cardTypo}>Cv</Typography>
-                        <Typography className={styles.cardTypo2}>Projet collectif WordPress, création d&apos;une boutique. Hébergement du site sur Netlify</Typography>
+                        <Typography className={styles.cardTypo}>Cv en HTML</Typography>
+                        <Typography className={styles.cardTypo2}>Projet individuel, création d&apos;un Cv en <span className="uppercase">html / css</span>. Hébergement du site sur Netlify</Typography>
                     </CardBody>
                 </Card>
             </div>

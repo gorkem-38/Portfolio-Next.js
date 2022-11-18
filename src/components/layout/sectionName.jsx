@@ -17,7 +17,11 @@ let styles = {
 const SectionName = () => {
     return (
         <>
-            <section className={styles.sectionLg}>
+            <section 
+            className={styles.sectionLg}
+            data-aos-duration="1500"
+            data-aos="zoom-in-up"
+            data-aos-once="false">
                 <div className={styles.sectionName}>
                     <h1 className={styles.h1}>Hello, Je suis</h1>
                     <p className={styles.text}>Gorkem Tumer</p>
