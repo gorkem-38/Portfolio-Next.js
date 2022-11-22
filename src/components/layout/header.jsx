@@ -1,7 +1,4 @@
 import MenuIcon from "@mui/icons-material/Menu";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 
 let styles = {
   div_widget: "flex justify-between p-4 lg:hidden",
@@ -104,31 +101,6 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className={styles.lgSection}>
-        <div className={styles.divLg1}>
-          <a
-            href="https://github.com/gorkem-38"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <GitHubIcon className={styles.iconGridLg} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/gorkem-tumer/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <LinkedInIcon className={styles.iconGridLg} />
-          </a>
-          <a
-            href="https://cv-gorkem.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <InsertDriveFileIcon className={styles.iconGridLg} />
-          </a>
         </div>
       </section>
     </>

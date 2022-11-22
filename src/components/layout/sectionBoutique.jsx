@@ -36,8 +36,14 @@ const SectionBoutique = () => {
         </div>
         <Card className={styles.divCard}>
           <CardHeader className={styles.cardHeader}>
-            <Link href="" target="_blank" rel="noopener noreferrer" passHref>
-              <Image src={boutique} alt="" />
+            <Link
+              href="https://wana-shop-saewt1towb.live-website.com/"
+              rel="noopener noreferrer"
+              passHref
+            >
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src={boutique} alt="boutique" />
+              </a>
             </Link>
           </CardHeader>
           <CardBody className={styles.cardBody}>
