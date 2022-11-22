@@ -35,9 +35,6 @@ const SectionLink = () => {
                 </div>
             </section>
             <section className={styles.sectionFrontEndIcon}>
-                <div className={styles.divIcon1}>
-                    <DeveloperModeIcon className={styles.icon} />
-                </div>
                 <div className={styles.divH2}>
                     <h2 className={styles.fontArimo}>Développement web</h2>
                     <p className={styles.paragraph}>J&apos;aime coder des choses à partir de rien, et j&apos;aime donner vie à mes idées dans le navigateur.</p>

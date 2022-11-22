@@ -10,7 +10,7 @@ let styles = {
   lgSection: "hidden md:hidden lg:grid lg:grid-cols-2 lg:mt-2",
   divLg1: "flex flex-row justify-evenly w-96",
   iconGridLg:
-    "h-auto w-10 hover:text-[#6e07f3] hover:bg-[#5be9b9] hover:rounded-full hover:p-1",
+    "h-auto w-14 hover:text-[#6e07f3] hover:bg-[#5be9b9] hover:rounded-full hover:p-1",
   divLg2: "flex justify-end pr-12",
 };
 
