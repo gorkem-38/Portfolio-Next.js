@@ -35,8 +35,8 @@ const SectionFilm = () => {
         </div>
         <Card className={styles.divCard}>
           <CardHeader className={styles.cardHeader}>
-            <Link href="https://cv-gorkem.netlify.app/">
-              <a>
+            <Link href="https://cv-gorkem.netlify.app/" passHref>
+              <a target="_blank" rel="noopener noreferrer">
                 <Image src={cvS} />
               </a>
             </Link>

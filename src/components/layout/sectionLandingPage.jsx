@@ -48,13 +48,13 @@ const SectionLandingPage = () => {
           </div>
           <div className={styles.divLandingPage}>
             <Card className={styles.divCard}>
-                  <CardHeader className={styles.cardHeader}>
-              <Link href="https://l-page.netlify.app/">
-                <a>
+              <CardHeader className={styles.cardHeader}>
+                <Link href="https://l-page.netlify.app/" passHref>
+                  <a target="_blank" rel="noopener noreferrer">
                     <Image src={landing} alt="landing" />
-                </a>
-              </Link>
-                  </CardHeader>
+                  </a>
+                </Link>
+              </CardHeader>
               <CardBody className={styles.cardBody}>
                 <Typography className={styles.cardTypo}>
                   Landing Page

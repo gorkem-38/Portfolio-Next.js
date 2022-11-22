@@ -33,8 +33,8 @@ const SectionAgenceWeb = () => {
       >
         <Card className={styles.divCard}>
           <CardHeader className={styles.cardHeader}>
-            <Link href="https://meta-code.netlify.app/" target="_blank">
-              <a>
+            <Link href="https://meta-code.netlify.app/" passHref>
+              <a target="_blank" rel="noopener noreferrer">
                 <Image src={metacode} alt="metacode" />
               </a>
             </Link>

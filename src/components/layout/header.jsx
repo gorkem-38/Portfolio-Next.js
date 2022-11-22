@@ -5,8 +5,8 @@ import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 
 let styles = {
   div_widget: "flex justify-between p-4 lg:hidden",
-  moon: "h-auto w-10",
-  sharp: "h-auto w-8 text-[#6e07f3]",
+  moon: "lg:h-auto lg:w-10",
+  sharp: "lg:h-auto lg:w-8 text-[#6e07f3]",
   lgSection: "hidden md:hidden lg:grid lg:grid-cols-2 lg:mt-2",
   divLg1: "flex flex-row justify-evenly w-96",
   iconGridLg:
