@@ -37,10 +37,11 @@ const SectionName = () => {
           </p>
           <div className="flex items-end h-14">
             <a
+              target="_blank"
               href="./docs/cv.pdf"
               className="border border-[#6e07f3] rounded-xl p-2 px-6 hover:scale-110 hover:duration-500 hover:bg-[#6e07f3] hover:text-white"
             >
-            <span className="uppercase">Mon cv</span>
+              <span className="uppercase">Mon cv</span>
             </a>
           </div>
         </div>
