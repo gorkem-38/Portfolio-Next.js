@@ -6,7 +6,6 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-import Input from "@mui/material/Input";
 import { Textarea } from "@material-tailwind/react";
 import Link from "next/link";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -17,9 +16,9 @@ let styles = {
   sectionWork: "pt-36",
   divCard: "h-[33rem] bg-[#6e07f3] text-white rounded-none",
   cardHeader:
-    "flex flex-col items-center text-white relative  py-4 mx-10 bg-[#141c3a] md:h-max lg:mx-28",
-  typoHeader: "text-xl font-arimo font-bold",
-  typoHeader2: "text-base text-center font-arimo px-9 pb-6 md:px-24",
+    "flex flex-col items-center text-white relative py-4 mx-10 bg-white md:h-max lg:mx-28 xl:",
+  typoHeader: "text-xl font-arimo font-bold text-[#6e07f3] uppercase",
+  typoHeader2: "text-base text-center text-black font-arimo px-9 pb-6 md:px-24",
   linkHeader:
     "border border-[#5be9b9] p-3 rounded-full hover:bg-[#5be9b9] duration-300",
   cardBody: "text-center",
@@ -43,34 +42,50 @@ const Footer = () => {
       >
         <Card className={styles.divCard}>
           <CardHeader className={styles.cardHeader}>
-            <Typography className={styles.typoHeader}>
-              Démarrer un projet
-            </Typography>
+            <Typography className={styles.typoHeader}>Me contacter</Typography>
             <Typography className={styles.typoHeader2}>
-              Tu souhaiterai que l&apos;on travaille ensemble ?
+              Actuellement à la recherche de nouveaux challenges et de nouvelles
+              opportunités, n&apos;hésitez pas à me contacter via le formulaire
+              ci-dessous.
             </Typography>
-            <div className="flex flex-row justify-between w-[17rem] lg:w-2/6">
+            <div className="flex flex-row justify-between w-[17rem] lg:w-2/6 xl:w-[35rem]">
               <TextField
-                label="Nom Prénom"
+                label="Votre nom complet"
                 variant="outlined"
-                className="w-32"
+                className="w-32 text-white xl:w-56"
               />
-              <TextField label="E-mail" variant="outlined" className="w-32" />
+              <TextField
+                label="E-mail"
+                variant="outlined"
+                className="w-32 xl:w-56"
+              />
             </div>
             <div className="flex items-end w-64 gap-4 py-4 md:w-96">
               <Textarea label="Message" className="h-32" variant="e-mail" />
+            </div>
+            <div className="flex items-end h-14">
+              <a
+                href="./docs/cv.pdf"
+                className="border border-[#6e07f3] rounded-xl p-2 px-6 hover:scale-110 hover:duration-500 hover:bg-[#6e07f3] hover:text-white"
+              >
+                <span className="uppercase">Mon cv</span>
+              </a>
             </div>
           </CardHeader>
           <div className="pt-10">
             <CardBody className={styles.cardBody}>
               <div className={styles.divBody}>
-                <Link href="#">
-                  <a className="lg:pr-5">
+                <Link href="https://github.com/gorkem-38" passHref>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="lg:pr-5"
+                  >
                     <GitHubIcon fontSize="large" className={styles.hoverIcon} />
                   </a>
                 </Link>
-                <Link href="">
-                  <a>
+                <Link href="https://www.linkedin.com/in/gorkem-tumer/" passHref>
+                  <a target="_blank" rel="noopener noreferrer">
                     <LinkedInIcon
                       fontSize="large"
                       className={styles.hoverIcon}

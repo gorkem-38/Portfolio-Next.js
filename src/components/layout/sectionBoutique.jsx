@@ -18,7 +18,7 @@ let styles = {
   cardHeader: "relative h-[45%] mx-6 md:mx-16",
   icon: "hidden lg:block lg:ml-56 lg:mt-20 lg:h-auto lg:w-72 lg:animate-bounce lg:opacity-80",
   cardBody: "text-center",
-  cardTypo: "text-xl pb-4 font-arimo font-bold",
+  cardTypo: "text-xl pb-4 font-arimo font-bold text-[#5be9b9]",
   cardTypo2: "font-martel text-sm",
 };
 
@@ -49,9 +49,9 @@ const SectionBoutique = () => {
           <CardBody className={styles.cardBody}>
             <Typography className={styles.cardTypo}>Boutique</Typography>
             <Typography className={styles.cardTypo2}>
-              Projet collectif WordPress, création d&apos;une boutique.
-              Hébergement du site sur <span className="uppercase">ionos</span>{" "}
-              (hébergeur web)
+              Projet collectif sous WordPress, création d&apos;une boutique liée
+              à notre projet d&apos;agence web. Hébergement du site sur{" "}
+              <span className="uppercase">ionos</span>.
             </Typography>
           </CardBody>
         </Card>

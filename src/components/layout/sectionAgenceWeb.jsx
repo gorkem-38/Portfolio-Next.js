@@ -18,7 +18,7 @@ let styles = {
   cardHeader: "relative h-[45%] mx-6 md:mx-16",
   icon: "hidden lg:block lg:ml-56 lg:mt-28 lg:h-auto lg:w-72 lg:animate-bounce lg:opacity-80",
   cardBody: "text-center",
-  cardTypo: "text-xl pb-4 font-arimo font-bold",
+  cardTypo: "text-xl pb-4 font-arimo font-bold text-[#5be9b9]",
   cardTypo2: "font-martel text-sm",
 };
 
@@ -43,7 +43,7 @@ const SectionAgenceWeb = () => {
             <Typography className={styles.cardTypo}>Agence web</Typography>
             <Typography className={styles.cardTypo2}>
               1er projet collectif dans un environnement Webpack, création
-              d&apos;une agence web. Hébergement du site sur Netlify.
+              d&apos;une agence web et hébergement du site sur Netlify.
             </Typography>
           </CardBody>
         </Card>

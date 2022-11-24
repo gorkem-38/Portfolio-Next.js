@@ -17,7 +17,7 @@ let styles = {
   divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-20 lg:mb-12",
   cardHeader: "relative h-[45%] mx-6 md:mx-16",
   cardBody: "text-center",
-  cardTypo: "text-xl pb-4 font-arimo font-bold",
+  cardTypo: "text-xl pb-4 font-arimo font-bold text-[#5be9b9]",
   cardTypo2: "font-martel text-sm",
 };
 
@@ -42,11 +42,11 @@ const SectionFilm = () => {
             </Link>
           </CardHeader>
           <CardBody className={styles.cardBody}>
-            <Typography className={styles.cardTypo}>Cv en HTML</Typography>
+            <Typography className={styles.cardTypo}>CV</Typography>
             <Typography className={styles.cardTypo2}>
               Projet individuel, création d&apos;un Cv en{" "}
-              <span className="uppercase">html / css</span>. Hébergement du site
-              sur Netlify
+              <span className="uppercase">html / css</span> puis hébergement du
+              site web sur Netlify.
             </Typography>
           </CardBody>
         </Card>

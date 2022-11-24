@@ -18,7 +18,7 @@ let styles = {
   cardHeader: "relative h-[45%] mx-6 md:mx-16",
   icon: "hidden lg:block lg:ml-56 lg:mt-16 lg:h-auto lg:w-72 lg:animate-bounce lg:opacity-80",
   cardBody: "text-center",
-  cardTypo: "text-xl pb-4 font-arimo font-bold",
+  cardTypo: "text-xl pb-4 font-arimo font-bold text-[#5be9b9]",
   cardTypo2: "font-martel text-sm",
 };
 
@@ -42,8 +42,9 @@ const SectionMazeBank = () => {
           <CardBody className={styles.cardBody}>
             <Typography className={styles.cardTypo}>Maze Bank</Typography>
             <Typography className={styles.cardTypo2}>
-              Projet individuel environnement Webpack, réalisation d&apos;une
-              application bancaire. Hébergement du site sur Netlify
+              Projet individuel dans un environnement Webpack, réalisation
+              d&apos;une application bancaire fictive afin de réaliser des
+              dépôts et retraits d&apos;argent.
             </Typography>
           </CardBody>
         </Card>

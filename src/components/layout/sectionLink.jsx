@@ -35,12 +35,12 @@ const SectionLink = () => {
                 </div>
             </section>
             <section className={styles.sectionFrontEndIcon}>
-                <div className={styles.divH2}>
+                {/* <div className={styles.divH2}>
                     <h2 className={styles.fontArimo}>Développement web</h2>
                     <p className={styles.paragraph}>J&apos;aime coder des choses à partir de rien, et j&apos;aime donner vie à mes idées dans le navigateur.</p>
-                </div>
+                </div> */}
                 <div className={styles.divTech}>
-                    <h3 className={styles.h3}>Langages et technologies utilisés :</h3>
+                    <h3 className={`${styles.h3} font-playball uppercase`}>Langages et technologies utilisés :</h3>
                     <div className={styles.divTools}>
                         <VisibilityIcon className={styles.textTeal}/>
                         <p>Html - Css - Javascript</p>

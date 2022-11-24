@@ -15,7 +15,7 @@ let styles = {
     divCard: "h-80 shadow-2xl mx-8 bg-[#6e07f3] text-white md:mx-20 lg:mb-12",
     cardHeader: "relative h-[45%] mx-6 lg:h-[55%]",
     cardBody: "text-center",
-    cardTypo: "text-xl pb-4 font-arimo font-bold",
+    cardTypo: "text-xl pb-4 font-arimo font-bold text-[#5be9b9]",
     cardTypo2: "font-martel text-sm"
 }
 
@@ -35,8 +35,8 @@ const SectionGTA = () => {
                         <Image src={gta} alt="" />
                     </CardHeader>
                     <CardBody className={styles.cardBody}>
-                        <Typography className={styles.cardTypo}>Futur projet ...</Typography>
-                        <Typography className={styles.cardTypo2}>...</Typography>
+                        <Typography className={styles.cardTypo}>Futur projet</Typography>
+                        <Typography className={styles.cardTypo2}>En cours de construction...</Typography>
                     </CardBody>
                 </Card>
             </div>
