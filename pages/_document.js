@@ -16,7 +16,6 @@ export default function Document() {
             </Head>
             <body 
             className="overflow-x-hidden"
-            data-aos="fade-down-right"
             data-aos-easing="linear"
             data-aos-duration="4400">
                 <Main />

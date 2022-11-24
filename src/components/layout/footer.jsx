@@ -16,7 +16,7 @@ let styles = {
   sectionWork: "pt-36",
   divCard: "h-[33rem] bg-[#6e07f3] text-white rounded-none",
   cardHeader:
-    "flex flex-col items-center text-white relative py-4 mx-10 bg-white md:h-max lg:mx-28 xl:",
+    "flex flex-col items-center text-white relative py-4 mx-10 bg-white md:h-max lg:mx-28 xl:drop-shadow-2xl",
   typoHeader: "text-xl font-arimo font-bold text-[#6e07f3] uppercase",
   typoHeader2: "text-base text-center text-black font-arimo px-9 pb-6 md:px-24",
   linkHeader:
@@ -37,7 +37,7 @@ const Footer = () => {
       <section
         className={styles.sectionWork}
         data-aos-duration="700"
-        data-aos="fade-down-left"
+        data-aos="fade-up"
         data-aos-once="false"
       >
         <Card className={styles.divCard}>
@@ -66,9 +66,9 @@ const Footer = () => {
             <div className="flex items-end h-14">
               <a
                 href="./docs/cv.pdf"
-                className="border border-[#6e07f3] rounded-xl p-2 px-6 hover:scale-110 hover:duration-500 hover:bg-[#6e07f3] hover:text-white"
+                className="border text-black border-[#6e07f3] rounded-xl p-2 px-6 hover:scale-110 hover:duration-500 hover:bg-[#6e07f3] hover:text-white"
               >
-                <span className="uppercase">Mon cv</span>
+                <span className="uppercase">Envoyer</span>
               </a>
             </div>
           </CardHeader>
