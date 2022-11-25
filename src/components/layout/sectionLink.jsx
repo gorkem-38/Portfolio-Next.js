@@ -12,7 +12,7 @@ let styles = {
     divH2: "flex flex-col items-center pt-5 text-black",
     paragraph: "text-center font-roboto pt-5 px-10",
     divTech: "flex flex-col items-center pt-16 pb-6 text-[#6e07f3] font-roboto",
-    h3: 'font-semibold',
+    h3: 'text-center font-semibold',
     textTeal: "text-[#5be9b9]",
     uppercase: "uppercase",
     divTools: "flex flex-col items-center justify-around h-36 text-black pt-3 font-martel",
