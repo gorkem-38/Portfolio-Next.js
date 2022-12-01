@@ -1,4 +1,3 @@
-// import"../assets/css/styles.css"
 import "tailwindcss/tailwind.css"
 import { ThemeProvider } from "@material-tailwind/react";
 import { useEffect } from "react";
