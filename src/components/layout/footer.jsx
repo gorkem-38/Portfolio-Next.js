@@ -16,7 +16,7 @@ let styles = {
   sectionWork: "pt-36",
   divCard: "h-[33rem] bg-[#6e07f3] text-white rounded-none",
   cardHeader:
-    "flex flex-col items-center text-white relative py-4 mx-10 drop-shadow-2xl bg-white md:h-max lg:mx-28",
+    "flex flex-col items-center text-white relative mt-[-4rem] py-4 mx-10 drop-shadow-2xl bg-white md:h-max lg:mx-28",
   typoHeader: "text-sm font-arimo font-bold text-[#6e07f3] uppercase lg:text-xl",
   typoHeader2: "text-xs text-center text-black font-arimo px-9 pb-6 md:px-24 lg:text-base",
   linkHeader:

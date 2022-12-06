@@ -50,8 +50,8 @@ const SectionLink = () => {
                     <div className={styles.divTools}>
                         <DnsIcon className={styles.textTeal}/>
                         <p>Php - Sql - Node.js</p>
-                        <p>Express.js - Mongo<span className={styles.uppercase}>db</span> - <span className={styles.uppercase}>Api</span> Rest</p>
-                        <p>Jest - Symfony - My<span className={styles.uppercase}>Sql</span></p>
+                        <p>PhpMyAdmin - Mongo<span className={styles.uppercase}>db</span> - <span className={styles.uppercase}>Api</span> Rest</p>
+                        <p>Symfony - My<span className={styles.uppercase}>Sql</span></p>
                     </div>
                 </div>
             </section>
