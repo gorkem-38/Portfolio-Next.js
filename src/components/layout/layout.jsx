@@ -3,7 +3,6 @@ import SectionName from "./sectionName";
 import SectionLink from "./sectionLink";
 import SectionLandingPage from "./sectionLandingPage";
 import SectionAgenceWeb from "./sectionAgenceWeb";
-import SectionCv from "./sectionCv";
 import SectionMazeBank from "./sectionMazeBank";
 import SectionBoutique from "./sectionBoutique";
 import SectionFilm from "./sectionFilm";
@@ -19,7 +18,6 @@ const Layout = () => {
             <SectionLink />
             <SectionLandingPage />
             <SectionAgenceWeb />
-            <SectionCv />
             <SectionMazeBank />
             <SectionBoutique />
             <SectionFilm />
